@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanValidator.Api", "LoanValidator.Api\LoanValidator.Api.csproj", "{11886697-3E64-4916-B6E5-DDCD3CC3F458}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanValidator.Persistence", "LoanValidator.Persistence\LoanValidator.Persistence.csproj", "{E2F4EE0D-3D11-4FC0-A94E-31198ECCFE19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanValidator.Service", "LoanValidator.Service\LoanValidator.Service.csproj", "{3F2AC1A4-AF80-44FF-A332-B18BB384D71B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanValidator.Entities", "LoanValidator.Entities\LoanValidator.Entities.csproj", "{EA72C0C8-5CF2-461E-80E2-74A01AC7BF30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanValidator.Service.Tests", "LoanValidator.Service.Tests\LoanValidator.Service.Tests.csproj", "{8BFEC08B-E082-4A38-B671-3FB9D5B9F9BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoanValidator.Api.Tests", "LoanValidator.Api.Tests\LoanValidator.Api.Tests.csproj", "{ACCF9537-0B92-4264-8F9A-6E90DBCCC4C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11886697-3E64-4916-B6E5-DDCD3CC3F458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11886697-3E64-4916-B6E5-DDCD3CC3F458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11886697-3E64-4916-B6E5-DDCD3CC3F458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11886697-3E64-4916-B6E5-DDCD3CC3F458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2F4EE0D-3D11-4FC0-A94E-31198ECCFE19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2F4EE0D-3D11-4FC0-A94E-31198ECCFE19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2F4EE0D-3D11-4FC0-A94E-31198ECCFE19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2F4EE0D-3D11-4FC0-A94E-31198ECCFE19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F2AC1A4-AF80-44FF-A332-B18BB384D71B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F2AC1A4-AF80-44FF-A332-B18BB384D71B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F2AC1A4-AF80-44FF-A332-B18BB384D71B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F2AC1A4-AF80-44FF-A332-B18BB384D71B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA72C0C8-5CF2-461E-80E2-74A01AC7BF30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA72C0C8-5CF2-461E-80E2-74A01AC7BF30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA72C0C8-5CF2-461E-80E2-74A01AC7BF30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA72C0C8-5CF2-461E-80E2-74A01AC7BF30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BFEC08B-E082-4A38-B671-3FB9D5B9F9BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BFEC08B-E082-4A38-B671-3FB9D5B9F9BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BFEC08B-E082-4A38-B671-3FB9D5B9F9BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BFEC08B-E082-4A38-B671-3FB9D5B9F9BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACCF9537-0B92-4264-8F9A-6E90DBCCC4C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACCF9537-0B92-4264-8F9A-6E90DBCCC4C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACCF9537-0B92-4264-8F9A-6E90DBCCC4C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACCF9537-0B92-4264-8F9A-6E90DBCCC4C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C74B1F0-CE1E-4722-9C3B-15639660712A}
+	EndGlobalSection
+EndGlobal
